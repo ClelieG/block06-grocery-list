@@ -1,0 +1,48 @@
+h1 {
+    font: weight 100px;
+    border-bottom: 2px solid black;
+}
+    section>h1,
+p {
+    font-family: monospace ;
+    font: weight 100px;
+}
+
+hr {
+    width: 150px; 
+
+}
+
+/* underline in 3 ways: 
+    text-decoration
+    border-bottom
+    <hr> (horizontal rule) */ 
+
+/* Class NAMES AND IDs */
+
+    p{
+    color:green;
+    }
+
+    .red {
+        color: red;
+    }
+
+    #first {
+        color: blue;
+    }
+
+    /* ID ARE HIGH PRIORITY */
+
+    section p {
+        color:red; 
+    }
+
+
+    /* TARGET SPECIFIC WORDS */
+
+    section > p > span {
+        color:black;
+        text-decoration: underline;
+
+    }

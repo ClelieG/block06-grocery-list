@@ -1,0 +1,68 @@
+div {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    text-align:center;
+    background-color: rgb(126, 126, 11);
+
+
+/*BLOCK MODEL PROPERTIES
+margin: pushing elements away from things
+padding: works on the content itself - pushes content further inside
+border (border width)
+    */
+
+    margin-top: 50px;
+    margin-bottom: 20px; 
+/*OR*/
+    margin: 50px 0 20px 10px;
+/* TOP RIGHT BOTTOM LEFT 
+OR
+TOP/BOTTOM, RIGHT/LEFT*/
+    margin: 50px 20px;
+
+    padding-top: 50px;
+
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+ /*OR*/
+    border: 3px double black; 
+
+    }
+
+p {
+    display: inline-block;
+    background-color: cadetblue;
+
+}
+
+span{ 
+    background-color: greenyellow
+}
+
+/* DISPLAY: 
+    Block: takes the entire width of the page 
+    inline: takes only what it needs and will also wrap around edges 
+    inline-block: adjustable width 
+
+
+
+
+    EXTRA UNITS
+        EM, REM, % VH (viewport height), VW (viewport width) */
+
+
+div { 
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1.5em;  /* 1.5 EM OF WHAT EVER THE PARENT CONTAINER IS, WHICH IN THIS CASE IS THE DIV "CONTENT" */
+}
+
+div >p {
+    border: 2px double black;
+    width: 50%;
+
+}

@@ -1,0 +1,39 @@
+h1{
+    color:rgb(7, 114, 114);
+    text-decoration: underline;
+    font-family: fantasy;
+
+}
+h2{
+    color: black;
+    font-family:cursive;
+    text-align: center;
+    background-color:rgb(204, 195, 195)
+}
+h3{
+    color:rgb(29, 26, 26);
+    text-align:center;
+    text-decoration: underline;
+    background-color:bisque
+}
+ul {
+    background-color: bisque;
+    margin: 0px 10px 10px 10px;
+    padding-block: 4px;
+}
+ol{
+    background-color: bisque;
+    margin: 0px 10px 10px 10px;
+    padding-block: 4px;
+}
+p{
+    border: 2px solid grey;
+}
+img{
+    width: 300px
+}
+div{ 
+    display: inline-block;
+    border: 3px solid black;
+    font-size:3vmax
+}
